@@ -74,6 +74,7 @@ let flatpickr = $('#calendar .placeholder').flatpickr({
   monthSelectorType: "static",
   defaultDate: new Date(),
   onReady: function() {showDots()},
+  onMonthChange: function() {showDots()},
   onChange: function(date, str) {
     let contents = '';
     if(date.length) {
