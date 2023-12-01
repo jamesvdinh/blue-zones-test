@@ -33,7 +33,7 @@ eventDates[day1] = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 ]
-let day2 = formatDate(new Date('December 20, 2024'))
+let day2 = formatDate(new Date('December 20, 2023'))
 eventDates[day2] = [
     {
         title: "Event Name",
