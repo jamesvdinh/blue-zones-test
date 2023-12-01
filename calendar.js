@@ -1,6 +1,6 @@
 // generate events
 let eventDates = {}
-let day1 = formatDate(new Date('November 23, 2023'))
+let day1 = formatDate(new Date('December 12, 2023'))
 eventDates[day1] = [
     {
         title: "Event Name",
@@ -33,7 +33,7 @@ eventDates[day1] = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 ]
-let day2 = formatDate(new Date('November 20, 2023'))
+let day2 = formatDate(new Date('December 20, 2024'))
 eventDates[day2] = [
     {
         title: "Event Name",
@@ -42,7 +42,7 @@ eventDates[day2] = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 ]
-let day3 = formatDate(new Date('November 29, 2023'))
+let day3 = formatDate(new Date('December 29, 2023'))
 eventDates[day3] = [
     {
         title: "Event Name",
