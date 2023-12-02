@@ -24,6 +24,8 @@
         justify-content: center;
         align-items: start;
         font-family: "Quicksand", sans-serif;
+        column-gap: 50px;
+        row-gap: 30px;
       }
       .cal-modal {
         background: #ffffff;
@@ -229,17 +231,19 @@
       .events-container {
         text-align: center;
         margin: 0 20px;
-        max-width: 380px;
+        width: 100%;
+        min-width: 380px;
+        max-width: 500px;
       }
       .events-header {
         background-color: #288203;
         border-radius: 4px;
-        margin: 0;
         padding: 7px 14px;
         color: white;
         display: flex;
         justify-content: space-between;
-        max-width: inherit;
+        min-width: 352px;
+        max-width: 472px;
       }
       .calendar-events {
         display: flex;
@@ -247,7 +251,8 @@
         justify-content: space-around;
         row-gap: 10px;
         margin-top: 10px;
-        width: 400px;
+        width: inherit;
+        min-width: inherit;
         max-width: inherit;
       }
       /* @media screen and (min-width: 992px) {
